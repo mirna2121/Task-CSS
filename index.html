@@ -3,52 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirna Mohamed Faried - Front-End Developer</title>
     <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <title>Task Css</title>
 </head>
 <body>
-    <div class="container">
-     <div class="left-box"></div>
-     <div class="center">
-        <div class="head"></div>
-        <div class="container-chat">
-         <div class="user-info">
-          <i class="icon-arrow fa-solid fa-chevron-left"></i>
-          <div class="user">
-            <img src="./images/avatar.jpg" alt="">
-            <div class="user-name">
-                <strong>Sam Smeth</strong>
-                <p class="userName">Availble to talk</p>
-            </div>
-          </div>
-          <i class="icon-dots fa-solid fa-ellipsis-vertical"></i>
-         </div>
-         <div class="chat-content">
-            <div class="ms-1"><p class="p-1">That's sound graet. I'd be happy with that.</p></div>
-            <div class="ms-2"><p class="p-1">Could you send over some pictures of your dog, please?</p></div>
-            <div class="ms-3">
-                <img class="dogs" src="./images/dog-image-1.jpg" alt="">
-                <img class="dogs" src="./images/dog-image-2.jpg" alt="">
-                <img class="dogs" src="./images/dog-image-3.jpg" alt="">
-            </div>
-           <div class="message-4-5">
-             <div class="ms-4"><p class="p-2">Here are few pictures. She's a happy girl!</p></div>
-            <div class="ms-5"><p class="p-2">Can you make it?</p></div>
-           </div>
-            <div class="ms-6"><p class="p-1">She looks so happy! How long shall i take her out for?</p></div>
-            <div class="typing">
-                <input class="input" type="text" placeholder="Type a message" >
-                <i class="send fa-solid fa-circle-chevron-right"></i>
-            </div>
-         </div>
+    <!-- Header -->
+    <header>
+        <h1>Mirna Mohamed Faried</h1>
+        <p>Front-End Developer</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="./images/WhatsApp marnonyyyy.jpeg" alt="Mirna Mohamed Faried" class="profile-photo">
+        <p>Passionate and detail-oriented Front-end Developer with a strong background in education. Skilled in building responsive and interactive web applications while leveraging problem-solving abilities and structured thinking. Transitioned from a career in teaching to programming, bringing excellent communication and mentoring skills to the tech industry. Adept at creating user-friendly experiences and continuously learning new technologies to enhance development expertise.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">Frontend Development expertise</div>
+            <div class="skill-card">VS Code</div>
+            <div class="skill-card">Collaboration using GitHub</div>
+            <div class="skill-card">Strapi, Firebase</div>
+            <div class="skill-card">Framework "React"</div>
+            <div class="skill-card">API integration</div>
+            <div class="skill-card">Problem Solving, Creativity, Team Collaboration, Time Management</div>
+            <div class="skill-card">Programming Languages "HTML, HTML 5, CSS, JavaScript"</div>
+            <div class="skill-card">Deadline adherence</div>
         </div>
-     </div>
-     <div class="text-box">
-        <h3>Simple booking</h3>
-        <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.</p>
-     </div>
-     <div class="right-box"></div>
-    </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Mirna Mohamed Faried</p>
+        <div class="social-links">
+            <a href="https://github.com/mirna2121" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/mirna-faried-780906370/" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
 </body>
 </html>
